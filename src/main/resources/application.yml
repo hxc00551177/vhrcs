@@ -1,2 +1,17 @@
 server:
   port: 8088
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///vueblog?useUnicode=true&&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: org.aoligei.vhrcs.model
+logging:
+  level:
+    org:
+      springframework:
+        security: info
