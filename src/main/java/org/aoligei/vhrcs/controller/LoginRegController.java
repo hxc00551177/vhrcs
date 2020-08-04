@@ -2,10 +2,8 @@ package org.aoligei.vhrcs.controller;
 
 
 import org.aoligei.vhrcs.model.RespBean;
-import org.aoligei.vhrcs.model.User;
 import org.aoligei.vhrcs.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -38,17 +36,4 @@ public class LoginRegController {
         return new RespBean("error", "尚未登录，请登录!");
     }
 
-    @PostMapping("/reg")
-    public RespBean reg(User user) {
-        int result = userService.reg(user);
-        if (result == 0) {
-            //成功
-            return new RespBean("success", "注册成功!");
-        } else if (result == 1) {
-            return new RespBean("error", "用户名重复，注册失败!");
-        } else {
-            //失败
-            return new RespBean("error", "注册失败!");
-        }
-    }
 }
