@@ -1,4 +1,4 @@
-package org.aoligei.vhrcs.model;
+package org.aoligei.vhrcs.model.entity;
 
 
 public class RespBean {

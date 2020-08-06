@@ -1,6 +1,6 @@
 package org.aoligei.vhrcs.mapper;
 
-import org.aoligei.vhrcs.model.Role;
+import org.aoligei.vhrcs.model.entity.Role;
 import org.apache.ibatis.annotations.Mapper;
 
 

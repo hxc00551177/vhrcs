@@ -1,7 +1,7 @@
 package org.aoligei.vhrcs.utils;
 
 
-import org.aoligei.vhrcs.model.User;
+import org.aoligei.vhrcs.model.entity.User;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 /**

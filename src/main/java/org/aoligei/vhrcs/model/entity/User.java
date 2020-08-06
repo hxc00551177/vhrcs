@@ -1,4 +1,4 @@
-package org.aoligei.vhrcs.model;
+package org.aoligei.vhrcs.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.security.core.GrantedAuthority;

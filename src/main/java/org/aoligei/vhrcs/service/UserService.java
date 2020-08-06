@@ -3,9 +3,8 @@ package org.aoligei.vhrcs.service;
 
 import org.aoligei.vhrcs.mapper.RolesMapper;
 import org.aoligei.vhrcs.mapper.UserMapper;
-import org.aoligei.vhrcs.model.Role;
-import org.aoligei.vhrcs.model.User;
-import org.aoligei.vhrcs.utils.Util;
+import org.aoligei.vhrcs.model.entity.Role;
+import org.aoligei.vhrcs.model.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

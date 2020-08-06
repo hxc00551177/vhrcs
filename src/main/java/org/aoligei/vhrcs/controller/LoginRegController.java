@@ -1,7 +1,7 @@
 package org.aoligei.vhrcs.controller;
 
 
-import org.aoligei.vhrcs.model.RespBean;
+import org.aoligei.vhrcs.model.entity.RespBean;
 import org.aoligei.vhrcs.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
